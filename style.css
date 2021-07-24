@@ -1,0 +1,619 @@
+/* Cedarville Cursive */
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+/* font-family: 'Cedarville Cursive', cursive; */
+
+/* Josefin Sans */
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Josefin+Sans&display=swap');
+/* font-family: 'Josefin Sans', sans-serif; */
+/* Alegreya Sans */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Cedarville+Cursive&family=Josefin+Sans&display=swap');
+/* font-family: 'Alegreya Sans', sans-serif; */
+/* ------- */
+body{
+    margin: 0;
+}
+/* Navbar */
+nav{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width: 1200px;
+}
+.left-navbar{
+    display: flex;
+    align-items: center;
+}
+.left-navbar h3{
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: 500;
+    font-size: 32px;
+    margin: 0;
+    margin-left: 15px;
+}
+.options{
+    text-decoration: none;
+    color: black;
+    font-family: Josefin Sans;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 14px 30px;
+    margin: 0px 6px;  
+}
+#contact-us{
+    background: #2D635E;
+    color: white;
+    font-family: Josefin Sans;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius:7px;
+}
+/* Banner */
+.banner{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width: 1200px;
+    margin: 0;
+}
+.left-banner p{
+    font-family: Cedarville Cursive;
+    font-weight: normal;
+    font-size: 28px;
+    color: #444A4A;
+}
+.left-banner h1{
+    font-family: Josefin Sans;
+    font-weight: bold;
+    font-size: 63px;
+    margin: 0;
+    margin-bottom: 26px;
+}
+.left-banner a{
+    display: inline-flex;
+    font-family: Josefin Sans;
+    font-weight: normal;
+    font-size: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #2D635E;
+    border-radius:5px;
+    padding: 13px 35px 13px 45px;
+}
+.fa-long-arrow-alt-right{
+    margin-left: 20px;
+}
+.right-banner{
+    display: flex;
+    position: relative;
+}
+.banner-img{
+    position: relative;
+}
+.banner-img img{
+    position: absolute;
+    top: 140px;
+    left: 39px;
+}
+.box-1{
+    background: #E3EBE7;
+    width: 410px;
+    height: 466px;
+    border-radius: 2px;
+    margin-right: 75px;
+}
+.social-links{
+    position: absolute;
+    bottom: 108px;
+    left: 333px;
+    width: 247px;
+    display: flex;
+    align-items: center;
+    transform: rotate(-90deg);
+}
+.social-links p{
+    font-family: Josefin Sans;
+    font-weight: 600;
+    font-size: 27px;
+    margin: 0;
+    margin-right: 5px;
+}
+.icons{
+    margin: 0px 6px;
+    width: 28px;
+    height: 23px;
+    border: 1px solid rgb(102, 98, 98);
+    text-align: center;
+    border-radius: 50px;
+    padding-top: 5px;
+    color: rgb(73, 73, 73);
+    font-size: 20px;
+    transform: rotate(90deg);
+}
+.fa-instagram{
+    color: #05796d;
+}
+/* Coffee section */
+.shop{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.shop-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 60px;
+    margin-top: 10px;
+    width: 1200px;
+    margin: 0;
+}
+.shop-left{
+    position: relative;
+    display: flex;
+}
+.shop-left p{
+    font-family: Cedarville Cursive;
+    font-weight: normal;
+    font-size: 28px;
+    color: black;
+    margin: 0;
+    display: inline;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 37px;
+    left: 0;
+}
+.box-2{
+    width: 380px;
+    height: 287px;
+    background: #FAE9E0;
+    margin-left: 45px;
+    margin-top: 30px;
+}
+.shop-left img{
+    position: absolute;
+    top: 107px;
+    left: 70px;
+    z-index: 1;
+}
+.shop-right h4{
+    font-family: Josefin Sans;
+    font-weight: bold;
+    font-size: 36px;
+    color: #000000;
+    margin: 0;
+    margin-top: 35px;
+}
+.shop-right p{
+    font-family: Alegreya Sans;
+    font-weight: normal;
+    font-size: 17px;
+    letter-spacing: .02rem;
+    line-height: 30px;
+    color: #444A4A;
+    margin: 25px 0;
+}
+/* Coffee */
+.coffee{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    padding-bottom: 60px;
+}
+.coffee-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 103px;
+    margin-top: 10px;
+    width: 1200px;
+    margin: 0;
+}
+.coffee-left{
+    width: 674px;
+}
+.coffee-left h4{
+    font-family: Josefin Sans;
+    font-weight: bold;
+    font-size: 34px;
+    color: #000000;
+    margin: 0;
+}
+.coffee-left p{
+    font-family: Alegreya Sans;
+    font-weight: normal;
+    font-size: 19px;
+    letter-spacing: .03rem;
+    word-spacing: 3px;
+    line-height: 36px;
+    color: #444A4A;
+    margin: 25px 0;
+}
+.order{
+    display: inline-flex;
+    font-family: Josefin Sans;
+    font-weight: normal;
+    font-size: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #2D635E;
+    border-radius:5px;
+    padding: 12px 45px 12px 45px;
+}
+.coffee-right{
+    position: relative;
+}
+.coffee-right p{
+    font-family: Cedarville Cursive;
+    font-weight: 500;
+    font-size: 29px;
+    color: black;
+    margin-top: 0px;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    transform: rotate(-90deg);
+}
+.box-3{
+    width: 410px;
+    height: 276px;
+    background: #E3EBE7;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.coffee-right img{
+    position: absolute;
+    top: 0;
+    left: 72px;
+}
+/* Menu */
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dcdfdd83;
+    padding: 60px 0px;
+}
+.menu-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    column-gap: 30px;
+    width: 1084px;
+}
+.menu-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 58px;
+    background-color: white;
+    box-shadow: 0px 23px 34px rgba(35, 57, 55, 0.17);
+    border-radius: 25px;
+}
+.menu-items h4{
+    font-family: Josefin Sans;
+    font-weight: bold;
+    font-size: 28px;
+    color: black;
+    margin: 0; 
+    margin-top: 10px;
+}
+.menu-items p{
+    font-family: Alegreya Sans;
+    font-weight: normal;
+    text-align: center;
+    font-size: 19px;
+    line-height: 36px;
+    letter-spacing: 0.001em;
+    color: #444A4A;
+    margin: 28px 0px 43px 0px;
+}
+/* Contact */
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+.contact-container{
+    display: flex;
+    width: 1043px;
+}
+.contact-left{
+    position: relative;
+}
+.contact-left iframe{
+    margin-right: 40px;
+}
+.contact-left p{
+    font-family: Cedarville Cursive;
+    font-weight: normal;
+    font-size: 28px;
+    color: black;
+    margin: 0;
+    margin-top: 0px;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    transform: rotate(-90deg);
+}
+.contact-middle hr{
+    width: 102px;
+    height: 0px;
+    border: 2px solid #444a4aa1;
+    margin-top: 26px;
+    border-radius: 20px;
+}
+.contact-right{
+    margin-top: 13px;
+    margin-left: 35px;
+}
+.contact-right h6{
+    font-family: Josefin Sans;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.contact-right p{
+    font-family: Alegreya Sans;
+    font-weight: normal;
+    font-size: 16px;
+    word-spacing: 2px;
+    letter-spacing: .02rem;
+}
+/* Footer */
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    letter-spacing: 0.005em;
+    color: #444A4A;
+    padding-bottom: 20px;
+}
+@media only screen and (max-width:688px){
+    nav{
+        width: 100%;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .right-navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items:center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .left-banner{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        margin: 40px 0;
+        padding: 0;
+    }
+    .left-banner p{
+        font-size: 20px;
+    }
+    .left-banner h1{
+        font-size: 54px;
+    }
+    .left-banner a{
+        padding: 13px 25px 13px 35px;
+    }
+    .right-banner{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .box-1{
+        width: 100%;
+    }
+    .banner-img img{
+        width: 95%;
+        left: 10px;
+        top: 85px;
+    }
+    .social-links{
+        display: flex;
+        justify-content: center;
+        position:unset;
+        transform:none;
+        margin-top: 140px;
+        width: 100%;
+    }
+    .icons{
+        transform: none;
+    }
+    .shop{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 30px;
+    }
+    .shop-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .shop-left{
+        width: 100%;
+        justify-content: center;
+    }
+    .box-2{
+        width: 90%; 
+        margin-left: 0;
+    }
+    .shop-left img{
+        width: 85%;
+        top:90px;
+        left: 30px;
+    }
+    .shop-left p{
+        transform-origin: top left;
+        top: 120px;
+        left: 5px;
+    }
+    .shop-right{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        width: 83%;
+        margin-top: 30px;
+    }
+    .coffee{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 30px;
+        margin-bottom: 100px;
+
+    }
+    .coffee-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .coffee-left{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        width: 90%;
+        margin-top: 30px;
+    }
+    .coffee-left p{
+        word-spacing: 1px;
+        letter-spacing: 0;
+    }
+    .coffee-right{
+        width: 98%;
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    .box-3{
+        width: 100%; 
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .coffee-position{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        width: 95%;
+        position: relative;
+    }
+    .coffee-right img{
+        width: 70%;
+        left: auto;
+    }
+    .coffee-right p{
+        transform-origin: top right;
+        top: 0px;
+        right: 43px;
+    }
+    .menu{
+        width: 100%;
+        margin: 0;
+        padding: 65px 0px;
+    }
+    .menu-container{
+        display:grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        grid-gap: 30px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .menu-items{
+        width: 85%;
+        margin: 0;
+        padding: 40px 5px;
+    }
+    .menu-items p{
+        width: 70%;
+    }
+    .contact{
+        width: 100%;
+        margin: 0;
+        padding:70px 0;
+        flex-wrap: wrap;
+    }
+    .contact-container{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .contact-left{
+        width: 96%;
+        padding: 20px 0;
+    }
+    .contact-left p{
+        transform-origin: top right;
+        right: 47px;
+    }
+    .contact-left iframe {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .contact-right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+    .contact-right h6{
+        margin-bottom: 20px;
+    }
+    .contact-right p{
+        margin:7px 0;
+    }
+    .copyright{
+        width: 100%;
+        padding:40px 0px 20px 0px;
+        margin: 0;
+        color:yellowgreen;
+
+    }
+}
+
+
